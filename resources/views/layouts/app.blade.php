@@ -8,7 +8,7 @@
     @vite('resources/js/app.js')
 </head>
 <body>
-    <header></header>
+    @include('partials.header')
     <main>
         @yield('main-content')
     </main>
